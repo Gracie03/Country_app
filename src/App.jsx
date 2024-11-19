@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Error from './error'
 import Home from './Dashboard/Home'
 import Sharedoutlet from './Dashboard/Sharedoutlet'
 import Details from './Dashboard/Details'
 import Searchbyletter from './Searchfolder/Searchbyletter'
 import Searchbycontinent from './Searchfolder/Searchbycontinent'
 import History from './Dashboard/History'
+import Errors from './Errors'
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
           </Route>
 
           {/* 404 page */}
-          <Route path="*" element={<Error />} />
+          <Route path="*" element={<Errors />} />
 
         </Routes>
       </BrowserRouter >

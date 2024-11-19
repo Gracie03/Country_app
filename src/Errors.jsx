@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Error() {
+function Errors() {
   return (
     <>
       <div style={{ height:'100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize:'1.5rem' }}>
@@ -12,4 +12,4 @@ function Error() {
   )
 }
 
-export default Error
+export default Errors
