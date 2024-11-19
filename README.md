@@ -22,6 +22,6 @@ This repository contains the source code for the Country search Website project,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/country-website.git
+   git clone https://github.com/Gracie03/Country_app
 
 2. run npm install to install packages used.
